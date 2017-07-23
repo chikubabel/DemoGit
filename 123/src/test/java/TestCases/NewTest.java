@@ -14,6 +14,7 @@ import org.testng.annotations.BeforeTest;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -40,6 +41,9 @@ public class NewTest {
 	  Thread.sleep(5000);
 	  Log.info("########	Clicked on Login Button	#############");
 	  Reporter.log("Successfully Logged In");
+	  Alert alert = driver.switchTo().alert();
+	  alert.accept();
+	  Thread.sleep(5000);
   }
   
   @Test

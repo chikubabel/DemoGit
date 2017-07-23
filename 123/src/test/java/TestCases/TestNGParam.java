@@ -4,6 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -37,6 +38,9 @@ public class TestNGParam {
 	  Thread.sleep(5000);
 	  Log.info("########	Clicked on Login Button	#############");
 	  Reporter.log("Successfully Logged In");
+	  Alert alert = driver.switchTo().alert();
+	  alert.accept();
+	  Thread.sleep(5000);
   }
   
   @Test
