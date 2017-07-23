@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Successfully Logged In]]>
+    </line>
+    <line>
+      <![CDATA[Successfully Logged Out]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31192" started-at="2017-07-23T06:28:14Z" finished-at="2017-07-23T06:28:45Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="31192" started-at="2017-07-23T06:28:14Z" finished-at="2017-07-23T06:28:45Z">
+      <class name="TestCases.DataProviderTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:TestCases.DataProviderTest@6eebc39e]" name="beforeTest" is-config="true" duration-ms="6418" started-at="2017-07-23T11:58:14Z" finished-at="2017-07-23T11:58:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http:\\www.demo.guru99.com\V4\]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String)[pri:0, instance:TestCases.DataProviderTest@6eebc39e]" name="Login" duration-ms="23270" started-at="2017-07-23T11:58:20Z" data-provider="Checkin" finished-at="2017-07-23T11:58:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr86807]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UrUbApE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Logged In]]>
+            </line>
+            <line>
+              <![CDATA[Successfully Logged Out]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestCases.DataProviderTest@6eebc39e]" name="afterTest" is-config="true" duration-ms="1474" started-at="2017-07-23T11:58:44Z" finished-at="2017-07-23T11:58:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestCases.DataProviderTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
